@@ -1,6 +1,28 @@
-.bordes{
-    border: 3px solid black;
+.bg-silver{
+ background-color:#BDC3C7;
 }
-.fondosocios{
-    background-color: rgb(232, 226, 226);
+.bg-gold{
+ background-color: #FFD700;
+}
+.bg-bronze{
+    background-color:#E59866;
+}
+.bordes{
+    border-radius: 15px;
+}
+.title-comoAsociarse{
+    font-style: italic;
+    font-size: 100px;
+}
+.margen-window-A{
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.margen-window-B{
+    margin-bottom: 230px;
+}
+.animacion:hover{
+    transition: 100ms;
+    border: black 5px solid;
+    border-radius: 15px;
 }

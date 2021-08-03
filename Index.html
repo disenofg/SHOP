@@ -1,81 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!----------------------------------------------------------INICIO SEO----------------------------------------------------------------------->
     <!-------keywords------->
     <meta name="keywords" content="parlantes, auriculares, airpods, tienda de electrodomesticos">
     <!-------description------->
-    <meta name="description" content="Tienda mayorista de conjuntos de electrodomesticos de primera calidad, un sitio en el que puedes conseguir parlantes, auriculares y mas...">
+    <meta name="description"
+        content="Tienda mayorista de conjuntos de electrodomesticos de primera calidad, un sitio en el que puedes conseguir parlantes, auriculares y mas...">
     <!-------titulo------->
     <title>Inicio / Guzza Shop</title>
     <!------------------------------------------------------------FIN SEO------------------------------------------------------------------------->
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/archivo.css">
     <link rel="stylesheet" href="./css/bts/bootstrap.css">
 </head>
+
 <body>
     <!--------------------------------------------------------ENCABEZADO---------------------------------------------->
-<header>
-    <div class="container">
-        <div class="col-10">
-                <h1 class="tituloPrincipal">Guzza Shop</h1>
-            <!-------BOTON DE INICIAR SESION CON SU MODAL------->
-            <div class="BotonDeRegistro">
-                <button type="button" class="btn btn-primary btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Inicia Sesion</a></button>
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <header>
+        <div class="container-fluid fondogris" id="index">
+            <div class="row">
+                <div>
+                    <h1 class="tituloPrincipal">Guzza Shop</h1>
+                </div>
+                <!-------BOTON DE INICIAR SESION CON SU MODAL------->
+                <div class="btn-inicio">
+                    <button type="button" class="btn btn-primary btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Inicia Sesion</a></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <label for="exampleInputEmail1" class="form-label">Direccion de correo</label>
+                                        <div id="emailHelp" class="form-text">ingrese su email: example@gmail.com</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Verificacion</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Entrar</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="mb-3">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <label for="exampleInputEmail1" class="form-label">Direccion de correo</label>
-                                    <div id="emailHelp" class="form-text">ingrese su email: example@gmail.com</div>
-                                </div>
-                                <div class="mb-3">
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Verificacion</label>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Entrar</button>
-                    </div>
                     </div>
                 </div>
-            </div>
-</header>
-    <!--------------------------------------------------BARRA-----DE--NAVEGACION-------------------------------------->        
-    <div class="container">    
+    </header>
+    <!--------------------------------------------------BARRA-----DE--NAVEGACION-------------------------------------->
+    <div class="container-fluid fondogris sticky-top">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
                 <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item px-4">
-                                <a class="nav-link active" aria-current="page" href="./Index.html">Inicio</a>
-                                </li>
-                            <li class="nav-item px-4">
-                            <a class="nav-link active" aria-current="page" href="./Pages/tienda.html">Tienda</a>
+                                <a class="nav-link active" aria-current="page" href="#index">Inicio</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link active" aria-current="page" href="./Pages/comosersocio.html">Como Asociarte</a>
+                                <a class="nav-link active" aria-current="page" href="./Pages/tienda.html">Tienda</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link active" aria-current="page" href="#Como-Asociarte">Como
+                                    Asociarte</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link active" aria-current="page" href="#Nosotros">Nosotros</a>
                             </li>
                         </ul>
                         <form class="d-flex px-4">
@@ -88,48 +103,310 @@
         </div>
     </div>
     <!--------------------------------------------------VIDEO--PUBLICIDAD---------------------------------------------->
-    <div class="container border">
-        <div class="row  fondogris">
-            <main class="col-12">
-                <div>
-                    <video loop autoplay muted controls class="videoApple">
-                        <source src="./multimedia/y2mate.com - AirPods Pro  Jump_1080p.mp4">
-                    </video>
-                </div>
-            </main>
-        </div>
-    </div>
-    <!--------------------------------------------------------IMAGENES-------------------------------------------------->
-    <div class="container">
-        <div class="row  fondogris">
-            <div class="col-6 text-center border">
-                    <h2>AIRPODS APPLE</h2>
-                <img src="./multimedia/airpods apple.jpg" alt="imagen de auricalares airpods apple" class="imagenAirpodsApple">
-            </div>
-            <div class="col-6 text-center border">
-                    <h2>AIRPODS XIAOMI</h2>       
-                <img src="./multimedia/airpods xiaomi.jpg" alt="imagen de airpods xiaomi" class="imagenAirpodsXiaomi">
-            </div>
-        </div>
-    </div>
-    <!--------------------------------------------------------PIE DE PAGINA---------------------------------------------->       
-    <footer class="container">
+    <div class="container-fluid border text-center">
         <div class="row">
-            <div class="divPieRedes">
-                    <h2 class="RedesSociales">Redes Sociales</h2>
+            <div class="col-6 py-4">
+                <div class="col-10 offset-md-1">
+                    <h4 class="title-AirPods-Max">AirPods Max</h4>
+                    <p>Cuando tengas puestos los AirPods Max, presiona el botón de control de ruido para alternar entre la cancelación de ruido activa y el modo Ambiente. Puedes personalizar entre qué modos alternar (cancelación de ruido activa, modo Ambiente y Desactivado) desde Configuración.</p>
+                </div>
+                <div class="offset-md-1">    
+                    <img src="./multimedia/bgc-auris.jpeg" class="img-promo" alt="">
+                </div>
             </div>
-            <div class="divPieAnimacion">
-                        <h3 class="facebook">Facebook</h3>
-            </div>
-            <div class="divPieAnimacion">
-                        <h3 class="instagram">Instagram</h3>
-            </div>
-            <div class="divPieAnimacion">
-                        <h3 class="twitter">Twitter</h3>
+        
+            <div class="col-6 border py-3">
+                <div class="col-10 offset-md-1">
+                    <h4 class="title-AirPods-Max">AirPods Pro</h4>
+                    <p>Cuando tengas puestos los dos AirPods, mantén presionado el sensor de fuerza en cualquiera de los AirPods para alternar entre la cancelación de ruido activa y el modo Ambiente. Puedes personalizar entre qué modos alternar (cancelación de ruido activa, modo Ambiente y Desactivado) desde Configuración.</p>
+                </div>
+                <div class="offset-md-1">
+                    <img src="./multimedia/bgc-airpods.png" class="img-promo" alt="">
+                </div>
             </div>
         </div>
-</footer> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    </div>
+    <!--------------------------------------------------------MAS--VENDIDOS-------------------------------------------------->
+    <div class="container-fluid fondogris">
+        <h2 class="text-center">MAS VENDIDOS</h2>
+        <div class="row">
+            <!--CARD ONE-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/airpods apple.jpg" class="tamaño-img" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold">$8450</h4>
+                        <p class="card-text fw-bold">Apple airpods X-370</p>
+                        <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD TWO-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/airpods xiaomi.png" class="tamaño-img" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$4999</h4>
+                        <p class="card-text fw-bold">Xiaomi p-2000</p>
+                        <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD THREE-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/jbl boombox 2.jpg" class="tamaño-img text-center" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$3450</h4>
+                        <p class="card-text fw-bold">Parlante JBL-MAX</p>
+                        <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD FOUR-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/Bt60.jpg" class="tamaño-img text-center" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$2999</h4>
+                        <p class="card-text fw-bold">Philips Bt60</p>
+                        <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--CARD ONE-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/logitech.png" class="tamaño-img" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold">$8450</h4>
+                        <p class="card-text fw-bold">Logitech X-600</p>
+                        <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD TWO-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/samsung.png" class="tamaño-img" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$4999</h4>
+                        <p class="card-text fw-bold">Samsung H-100</p>
+                        <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD THREE-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/sony.jpg" class="tamaño-img text-center" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$3450</h4>
+                        <p class="card-text fw-bold">Sony L-MAX</p>
+                        <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+            <!--CARD FOUR-->
+            <div class="col-3 py-3">
+                <div class="card py-3 px-3 tamaño-card mx-auto">
+                    <div class="text-center card">
+                        <img src="./multimedia/hyperx.png" class="tamaño-img text-center" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-text fw-bold text-left">$2999</h4>
+                        <p class="card-text fw-bold">hyperx Z-70</p>
+                        <p>Auricular / Bluetooth / Carga rapida / Ultra liviano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------COMO ASOCIARTE----------------------------------------------->
+    <div class="container-fluid fondogris border" id="Como-Asociarte">
+        <div class="row margen-window-A">
+            <h3 class="text-center title-comoAsociarse">COMO ASOCIARSE</h3>
+        </div>
+        <div class="row justify-content-center margen-window-B">
+            <!-------------SOCIO SILVER---------------------->
+            <div class="col-3 mx-4 animacion bordes bg-bronze">
+                <h4 class="text-center">SOCIO BRONZE</h4>
+                <h5>Requisitos</h5>
+                <div>
+                    <ul>
+                        <li>Inversion Mayor a $10.000 Mensual</li>
+                        <li>Llenar formulario de SocioBronze</li>
+                        <li>Solicitar tarjeta SocioGuzza</li>
+                        <li>Monotributo A1</li>
+                    </ul>
+                </div>
+                <h5>Beneficios</h5>
+                <div>
+                    <ul>
+                        <li>Compras mayoristas a partir de 20 articulos</li>
+                        <li>Descuento de 10% en nuevos ingresos</li>
+                        <li>1 publicidad gratis de tu emprendimiento en nuestra tienda</li>
+                    </ul>
+                </div>
+                <h5>Consultas de Stock</h5>
+                <div>
+                    <ul>
+                        <li>Soporte a traves de Mensajeria Web</li>
+                        <li>Lunes / Miercoles / Viernes: De 10 a 14hs</li>
+                        <li>Martes / Miercoles: De 9 a 13hs</li>
+                        <li>Sabados / Domingos: No disponible</li>
+                    </ul>
+                </div>
+            </div>
+            <!-------------SOCIO SILVER----------------------->
+            <div class="col-3 mx-4 animacion bordes bg-silver">
+                <h4 class="text-center">SOCIO SILVER</h4>
+                <h5>Requisitos</h5>
+                <div>
+                    <ul>
+                        <li>Inversion Mayor a $20.000 Mensual</li>
+                        <li>Llenar formulario de SocioSilver</li>
+                        <li>Solicitar tarjeta SocioGuzza</li>
+                        <li>Monotributo B1</li>
+                    </ul>
+                </div>
+                <h5>Beneficios</h5>
+                <div>
+                    <ul>
+                        <li>Compras mayoristas a partir de 10 articulos</li>
+                        <li>Descuento de 15% en nuevos ingresos</li>
+                        <li>2 publicidad gratis de tu emprendimiento en nuestra tienda</li>
+                    </ul>
+                </div>
+                <h5>Consultas de Stock</h5>
+                <div>
+                    <ul>
+                        <li>Soporte a traves de Mensajeria Web</li>
+                        <li>Lunes / Miercoles / Viernes: De 10 a 18hs</li>
+                        <li>Martes / Miercoles: De 9 a 18hs</li>
+                        <li>Sabados : De 9 a 13hs</li>
+                    </ul>
+                </div>
+            </div>
+            <!-------------SOCIO GOLD----------------------->
+            <div class="col-3 mx-4 animacion bordes bg-gold">
+                <h4 class="text-center">SOCIO GOLD</h4>
+                <h5>Requisitos</h5>
+                <div>
+                    <ul>
+                        <li>Inversion Mayor a $35.000 Mensual</li>
+                        <li>Llenar formulario de SocioGold</li>
+                        <li>Solicitar tarjeta SocioGuzza</li>
+                        <LI>Ser Responsable Inscripto</LI>
+                    </ul>
+                </div>
+                <h5>Beneficios</h5>
+                <div>
+                    <ul>
+                        <li>No hay minimo de articulos para compra mayorista</li>
+                        <li>Descuento de 20% en nuevos ingresos</li>
+                        <li>Publicidad fija de tu emprendimiento en nuestra tienda</li>
+                    </ul>
+                </div>
+                <h5>Consultas de Stock</h5>
+                <div>
+                    <ul>
+                        <li>Soporte telefonico 24hs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------PIE DE PAGINA---------------------------------------------->
+    <footer class="container-fluid p-3" id="Nosotros" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div>
+            <h4 class="text-center title-nosotros py-3">Nosotros</h4>
+        </div>
+        <div class="row justify-content-center py-3">
+            <!--SONIDO PROFESIONAL-->
+            <div class="col-4">
+                <div class="col-7 offset-md-3">
+                    <h6 class="text-uppercase fw-bold">Sonido Profesional</h6>
+                    <p>Aqui podras encontrar los mejores insumos de sonido de alta definicion. Aprovecha nuestras
+                        promociones actuales para sumarte al mundo digital</p>
+                </div>
+            </div>
+            <!---------CONTACTO----->
+            <div class="col-4">
+                <div class="col-4 offset-md-5">
+                    <h6 class="text-uppercase fw-bold">Contacto</h6>
+                    <p><i></i>Argentina, Córdoba</p>
+                    <p><i></i>ShopGuzza@gmail.com</p>
+                    <p><i></i>+ 54 9 234 567 88</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col-4 offset-md-5">
+                    <h6 class="text-uppercase fw-bold">Primeras Marcas</h6>
+                    <p><i></i>Apple</p>
+                    <p><i></i>Samsung</p>
+                    <p><i></i>Xiaomi</p>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3">
+            <h5 class="title-visita text-center">Visita Nuestros Locales</h5>
+        </div>
+        <div class="row py-3">
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 1)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 3)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 7)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="container-fluid text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">DiseñoWebFg</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

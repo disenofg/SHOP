@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!----------------------------------------------------------INICIO SEO----------------------------------------------------------------------->
     <!-------keywords------->
     <meta name="keywords" content="tienda de electrodomesticos, productos, auriculares, airpods, parlantes">
     <!-------description------->
-    <meta name="description" content="En esta seccion podes encontrar todos nuestros productos, entre ellos parlantes y airpods">
+    <meta name="description"
+        content="En esta seccion podes encontrar todos nuestros productos, entre ellos parlantes y airpods">
     <!-------titulo------->
     <title>Tienda / Guzza Shop</title>
     <!------------------------------------------------------------FIN SEO------------------------------------------------------------------------->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/archivo.css">
     <link rel="stylesheet" href="../css/bts/bootstrap.css">
 </head>
+
 <body>
     <!--------------------------------------------------------ENCABEZADO---------------------------------------------->
     <header>
-        <div class="container">
-            <div class="col-10">
+        <div class="container-fluid fondogris" id="tienda">
+            <div class="row">
+                <div>
                     <h1 class="tituloPrincipal">Guzza Shop</h1>
-                <!-------BOTON DE INICIAR SESION CON SU MODAL------->
-                <div class="BotonDeRegistro">
-                    <button type="button" class="btn btn-primary btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Inicia Sesion</a></button>
                 </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-------BOTON DE INICIAR SESION CON SU MODAL------->
+                <div class="btn-inicio">
+                    <button type="button" class="btn btn-primary btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Inicia Sesion</a></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <form>
                                     <div class="mb-3">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
                                         <label for="exampleInputEmail1" class="form-label">Direccion de correo</label>
                                         <div id="emailHelp" class="form-text">ingrese su email: example@gmail.com</div>
                                     </div>
@@ -51,31 +60,37 @@
                                 </form>
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary">Entrar</button>
-                        </div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Entrar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
     </header>
-    <!--------------------------------------------------BARRA-----DE--NAVEGACION-------------------------------------->        
-    <div class="container">    
+    <!--------------------------------------------------BARRA-----DE--NAVEGACION-------------------------------------->
+    <div class="container-fluid fondogris sticky-top">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
                 <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item px-4">
                                 <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
-                                </li>
-                            <li class="nav-item px-4">
-                            <a class="nav-link active" aria-current="page" href="./tienda.html">Tienda</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link active" aria-current="page" href="./comosersocio.html">Como Asociarte</a>
+                                <a class="nav-link active" aria-current="page" href="#tienda">Tienda</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link active" aria-current="page" href="#Como-Asociarte">Como
+                                    Asociarte</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link active" aria-current="page" href="#Nosotros">Nosotros</a>
                             </li>
                         </ul>
                         <form class="d-flex px-4">
@@ -87,67 +102,234 @@
             </nav>
         </div>
     </div>
-<!--------------------------------------------------------IMAGENES-------------------------------------------------->
-    <div class="container">
-        <div class="row border">
-            <div class="col-2 text-center border">
-                    <img class="imagenesArticulos" src="../multimedia/auris.png" alt="">
+    <!--------------------------------------------------------TARJETAS-------------------------------------------------->
+<div class="container-fluid fondogris">
+    <div class="container border bg-white">
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/Bt60.jpg" class="img-art" alt="">
             </div>
-            <div class="col-10 fondoArticulos">
-                <h4>SONY B-578</h4>
-                <p>Auriculares AirPods Inalámbricos / Bluetooth-Wifi / Bateria ultra durable / </p>
-                <h5>$2.500</h5>
-            </div>
-        </div>
-        <div class="row border">
-            <div class="col-2 text-center border">
-                    <img class="imagenesArticulos" src="../multimedia/parlante.png" alt="">
-            </div>
-            <div class="col-10 fondoArticulos">
-                <h4>BANK-M352</h4>
-                <p>Parlante Inalámbrico / Bluetooth-Wifi / Bateria ultra durable / </p>
-                <h5>$4.750</h5>
+            <div class="col-8">
+                <h5>Philips Bt60</h5>
+                <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
             </div>
         </div>
-        <div class="row border">
-            <div class="col-2 text-center border">
-                    <img class="imagenesArticulos" src="../multimedia/auris.png" alt="">
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/jbl boombox 2.jpg" class="img-art" alt="">
             </div>
-            <div class="col-10 fondoArticulos">
-                <h4>SONY B-578</h4>
-                <p>Auriculares AirPods Inalámbricos / Bluetooth-Wifi / Bateria ultra durable / </p>
-                <h5>$2.500</h5>
+            <div class="col-8">
+                <h6>Parlante JBL-MAX</h6>
+                <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
             </div>
         </div>
-        <div class="row border">
-            <div class="col-2 text-center border">
-                    <img class="imagenesArticulos" src="../multimedia/parlante.png" alt="">
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/sony.jpg" class="img-art" alt="">
             </div>
-            <div class="col-10 fondoArticulos">
-                <h4>BANK-M352</h4>
-                <p>Parlante Inalámbrico / Bluetooth-Wifi / Bateria ultra durable / </p>
-                <h5>$4.750</h5>
+            <div class="col-8">
+                <h6>Sony L-MAX</h6>
+                <p>Parlante / Bluetooth / Carga rapida / Ultra liviano</p>
+            </div>
+        </div>
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/airpods apple.jpg" class="img-art" alt="">
+            </div>
+            <div class="col-8">
+                <h6>Apple airpods X-370</h6>
+                <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+            </div>
+        </div>
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/airpods xiaomi.png" class="img-art" alt="">
+            </div>
+            <div class="col-8">
+                <h6>Xiaomi p-2000</h6>
+                <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
+            </div>
+        </div>
+        <div class="row py-1 border-bottom">
+            <div class="col-2 border-end">
+                <img src="../multimedia/bgc-auris.jpeg" class="img-art" alt="">
+            </div>
+            <div class="col-8">
+                <h6>Apple airpods X-470</h6>
+                <p>Auriculares / Bluetooth / Carga rapida / Ultra liviano</p>
             </div>
         </div>
     </div>
-    <!--------------------------------------------------------PIE DE PAGINA---------------------------------------------->       
-    <footer class="container">
-        <div class="row">
-            <div class="divPieRedes">
-                <h2 class="RedesSociales">Redes Sociales</h2>
+</div>
+<!------------------------------------------------------COMO ASOCIARTE----------------------------------------------->
+<div class="container-fluid fondogris border" id="Como-Asociarte">
+    <div class="row margen-window-A">
+        <h3 class="text-center title-comoAsociarse">COMO ASOCIARSE</h3>
+    </div>
+    <div class="row justify-content-center margen-window-B">
+        <!-------------SOCIO SILVER---------------------->
+        <div class="col-3 mx-4 animacion bordes bg-bronze">
+            <h4 class="text-center">SOCIO BRONZE</h4>
+            <h5>Requisitos</h5>
+            <div>
+                <ul>
+                    <li>Inversion Mayor a $10.000 Mensual</li>
+                    <li>Llenar formulario de SocioBronze</li>
+                    <li>Solicitar tarjeta SocioGuzza</li>
+                    <li>Monotributo A1</li>
+                </ul>
             </div>
-            <div class="divPieAnimacion">
-                <h3 class="facebook">Facebook</h3>
+            <h5>Beneficios</h5>
+            <div>
+                <ul>
+                    <li>Compras mayoristas a partir de 20 articulos</li>
+                    <li>Descuento de 10% en nuevos ingresos</li>
+                    <li>1 publicidad gratis de tu emprendimiento en nuestra tienda</li>
+                </ul>
             </div>
-            <div class="divPieAnimacion">
-                <h3 class="instagram">Instagram</h3>
-            </div>
-            <div class="divPieAnimacion">
-                <h3 class="twitter">Twitter</h3>
+            <h5>Consultas de Stock</h5>
+            <div>
+                <ul>
+                    <li>Soporte a traves de Mensajeria Web</li>
+                    <li>Lunes / Miercoles / Viernes: De 10 a 14hs</li>
+                    <li>Martes / Miercoles: De 9 a 13hs</li>
+                    <li>Sabados / Domingos: No disponible</li>
+                </ul>
             </div>
         </div>
-</footer> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+        <!-------------SOCIO SILVER----------------------->
+        <div class="col-3 mx-4 animacion bordes bg-silver">
+            <h4 class="text-center">SOCIO SILVER</h4>
+            <h5>Requisitos</h5>
+            <div>
+                <ul>
+                    <li>Inversion Mayor a $20.000 Mensual</li>
+                    <li>Llenar formulario de SocioSilver</li>
+                    <li>Solicitar tarjeta SocioGuzza</li>
+                    <li>Monotributo B1</li>
+                </ul>
+            </div>
+            <h5>Beneficios</h5>
+            <div>
+                <ul>
+                    <li>Compras mayoristas a partir de 10 articulos</li>
+                    <li>Descuento de 15% en nuevos ingresos</li>
+                    <li>2 publicidad gratis de tu emprendimiento en nuestra tienda</li>
+                </ul>
+            </div>
+            <h5>Consultas de Stock</h5>
+            <div>
+                <ul>
+                    <li>Soporte a traves de Mensajeria Web</li>
+                    <li>Lunes / Miercoles / Viernes: De 10 a 18hs</li>
+                    <li>Martes / Miercoles: De 9 a 18hs</li>
+                    <li>Sabados : De 9 a 13hs</li>
+                </ul>
+            </div>
+        </div>
+        <!-------------SOCIO GOLD----------------------->
+        <div class="col-3 mx-4 animacion bordes bg-gold">
+            <h4 class="text-center">SOCIO GOLD</h4>
+            <h5>Requisitos</h5>
+            <div>
+                <ul>
+                    <li>Inversion Mayor a $35.000 Mensual</li>
+                    <li>Llenar formulario de SocioGold</li>
+                    <li>Solicitar tarjeta SocioGuzza</li>
+                    <LI>Ser Responsable Inscripto</LI>
+                </ul>
+            </div>
+            <h5>Beneficios</h5>
+            <div>
+                <ul>
+                    <li>No hay minimo de articulos para compra mayorista</li>
+                    <li>Descuento de 20% en nuevos ingresos</li>
+                    <li>Publicidad fija de tu emprendimiento en nuestra tienda</li>
+                </ul>
+            </div>
+            <h5>Consultas de Stock</h5>
+            <div>
+                <ul>
+                    <li>Soporte telefonico 24hs</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--------------------------------------------------------PIE DE PAGINA---------------------------------------------->
+    <footer class="container-fluid p-3" id="Nosotros" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div>
+            <h4 class="text-center title-nosotros py-3">Nosotros</h4>
+        </div>
+        <div class="row justify-content-center py-3">
+            <!--SONIDO PROFESIONAL-->
+            <div class="col-4">
+                <div class="col-7 offset-md-3">
+                    <h6 class="text-uppercase fw-bold">Sonido Profesional</h6>
+                    <p>Aqui podras encontrar los mejores insumos de sonido de alta definicion. Aprovecha nuestras
+                        promociones actuales para sumarte al mundo digital</p>
+                </div>
+            </div>
+            <!---------CONTACTO----->
+            <div class="col-4">
+                <div class="col-4 offset-md-5">
+                    <h6 class="text-uppercase fw-bold">Contacto</h6>
+                    <p><i></i>Argentina, Córdoba</p>
+                    <p><i></i>ShopGuzza@gmail.com</p>
+                    <p><i></i>+ 54 9 234 567 88</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col-4 offset-md-5">
+                    <h6 class="text-uppercase fw-bold">Primeras Marcas</h6>
+                    <p><i></i>Apple</p>
+                    <p><i></i>Samsung</p>
+                    <p><i></i>Xiaomi</p>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3">
+            <h5 class="title-visita text-center">Visita Nuestros Locales</h5>
+        </div>
+        <div class="row py-3">
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 1)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 3)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-4 border">
+                <h6 class="text-center text-uppercase fw-bold py-3">Plaza San Martin (Local 7)</h6>
+                <div class="text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9046748323894!2d-64.18535008424838!3d-31.416752353414584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1627743003383!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="container-fluid text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">DiseñoWebFg</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

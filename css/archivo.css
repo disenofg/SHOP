@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -22,99 +23,82 @@ h4 {
   font-size: 60px;
   text-align: center; }
 
-.BotonDeRegistro {
+.btn-inicio {
   text-decoration: none;
-  position: absolute;
-  left: 1450px;
-  bottom: 900px;
-  margin-bottom: 10px; }
+  text-align: right;
+  padding-bottom: 10px; }
 
-.RedesSociales {
-  text-align: center;
-  font-size: 20px; }
+.title-nosotros {
+  font-style: italic;
+  font-size: 100px; }
 
-.facebook {
-  font-size: 15px;
-  text-align: center; }
-
-.instagram {
-  font-size: 15px;
-  text-align: center; }
-
-.twitter {
-  font-size: 15px;
-  text-align: center; }
-
-.divPieRedes {
-  animation-name: efecto_redes;
-  animation-iteration-count: 3;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.94, 0.51);
-  animation-delay: 1s;
-  animation-duration: 3s;
-  margin: 50px 0;
-  animation-iteration-count: infinite; }
-
-@keyframes efecto_redes {
-  0% {
-    height: 50px;
-    background-color: red;
-    transform: scale(0.5);
-    transform: translateX(0px); }
-  25% {
-    height: 60px;
-    background-color: green;
-    transform: scale(0.5);
-    transform: translateX(0px); }
-  50% {
-    height: 70px;
-    background-color: orange;
-    transform: scale(0.5);
-    transform: translateX(0px); }
-  75% {
-    height: 80px;
-    background-color: violet;
-    transform: scale(0.5);
-    transform: translateX(0px); }
-  100% {
-    height: 90px;
-    background-color: blue;
-    transform: scale(0.5);
-    transform: translateX(0px); } }
-
-.divPieAnimacion {
-  height: 35px;
-  transition: height 2s, width 1s; }
-
-.divPieAnimacion:hover {
-  height: 75px;
-  background-color: gray; }
+.title-visita {
+  font-style: italic;
+  font-size: 50px; }
 
 .videoApple {
-  width: 950px;
-  height: 600px;
-  position: relative;
-  left: 150px; }
+  width: 100%;
+  height: 850px; }
 
-.imagenAirpodsXiaomi {
-  width: 500px;
-  height: 380px; }
+.img-promo {
+  width: 60%;
+  height: 100%; }
 
-.imagenAirpodsApple {
-  width: 500px;
-  height: 380px; }
+.title-AirPods-Max {
+  font-style: bold;
+  font-size: 35px;
+  color: #161515; }
+
+.title-exp {
+  color: whitesmoke;
+  font-style: bold;
+  font-size: 50px;
+  position: absolute;
+  bottom: 530px;
+  left: 350px; }
 
 .fondogris {
-  background-color: #e8e2e2; }
+  background-color: rgba(226, 215, 215, 0.288); }
 
-.imagenesArticulos {
-  width: 150px;
+.tamaño-card {
+  width: 350px;
+  height: 420px; }
+
+.tamaño-img {
+  width: 250px;
+  height: 250px; }
+
+.img-art {
+  width: 200px;
   height: 200px; }
 
 .fondoArticulos {
   background-color: #e8e2e2; }
 
-.bordes {
-  border: 3px solid black; }
+.bg-silver {
+  background-color: #BDC3C7; }
 
-.fondosocios {
-  background-color: #e8e2e2; }
+.bg-gold {
+  background-color: #FFD700; }
+
+.bg-bronze {
+  background-color: #E59866; }
+
+.bordes {
+  border-radius: 15px; }
+
+.title-comoAsociarse {
+  font-style: italic;
+  font-size: 100px; }
+
+.margen-window-A {
+  margin-bottom: 100px;
+  padding-top: 50px; }
+
+.margen-window-B {
+  margin-bottom: 230px; }
+
+.animacion:hover {
+  transition: 100ms;
+  border: black 5px solid;
+  border-radius: 15px; }

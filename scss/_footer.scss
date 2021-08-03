@@ -1,65 +1,8 @@
-.RedesSociales{
-    text-align: center;
-    font-size: 20px;
+.title-nosotros{
+    font-style: italic;
+    font-size: 100px;
 }
-.facebook{
-    font-size: 15px;
-    text-align: center;
-}
-.instagram{
-    font-size: 15px;
-    text-align: center;
-}
-.twitter{
-    font-size: 15px;
-    text-align: center;
-}
-.divPieRedes{
-    animation-name: efecto_redes;
-    animation-iteration-count: 3;
-    animation-timing-function:cubic-bezier(.2,.8,.94,.51) ;
-    animation-delay: 1s;
-    animation-duration: 3s;
-    margin: 50px 0;
-    animation-iteration-count:infinite;
-}
-@keyframes efecto_redes{
-    0%{
-       height: 50px;
-       background-color: red;
-       transform: scale(0.5);
-       transform: translateX(0px);
-    }
-    25%{
-        height: 60px;
-        background-color: green;
-        transform: scale(0.5);
-        transform: translateX(0px);
-    }
-    50%{
-        height: 70px;
-        background-color: orange;
-        transform: scale(0.5);
-        transform: translateX(0px);
-    }
-    75%{
-        height: 80px;
-        background-color:violet;
-        transform: scale(0.5);
-        transform: translateX(0px);
-    }
-    100%{
-        height: 90px;
-        background-color: blue;
-        transform: scale(0.5);
-        transform: translateX(0px);
-    }
-}
-.divPieAnimacion{
-    height: 35px;
-    transition: height 2s, width 1s;
-}
-.divPieAnimacion:hover{
-    height: 75px;
-    background-color:gray;
+.title-visita{
+    font-style: italic;
+    font-size: 50px;
 }
